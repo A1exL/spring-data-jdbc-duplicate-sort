@@ -3,7 +3,7 @@ spring:
     name: user-management-service
 
   datasource:
-    url: jdbc:tc:sqlserver:2017-CU12:///testdb
+    url: jdbc:tc:sqlserver:2022-CU20-ubuntu-22.04:///testdb
     driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
 logging:
   level:

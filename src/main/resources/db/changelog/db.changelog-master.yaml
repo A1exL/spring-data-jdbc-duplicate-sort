@@ -4,16 +4,16 @@ databaseChangeLog:
       author: Liquibase
       changes:
         - createTable:
-            tableName: users
+            tableName: USERS
             columns:
               - column:
-                  name: id
+                  name: ID
                   type: bigint
                   constraints:
                     primaryKey: true
               - column:
-                  name: username
+                  name: USERNAME
                   type: varchar(50)
               - column:
-                  name: last_modified
+                  name: LAST_MODIFIED
                   type: timestamp

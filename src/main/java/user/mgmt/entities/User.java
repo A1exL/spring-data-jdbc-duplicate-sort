@@ -23,6 +23,6 @@ public class User {
     @Column("USERNAME")
     private String username;
     @Column("LAST_MODIFIED")
-    private LocalDateTime lastModified = LocalDateTime.now();
+    private LocalDateTime lastModified;
 
 }
