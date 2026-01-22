@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: user-management-service
+
+  datasource:
+    url: jdbc:tc:sqlserver:2017-CU12:///testdb
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+logging:
+  level:
+    org.springframework.jdbc.core: TRACE
